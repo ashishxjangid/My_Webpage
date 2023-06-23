@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sneaker Shopping webpage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Shop</a>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <h1>Sneaker Shopping</h1>
+    <p>Find the perfect pair for your style</p>
+  </section>
+
+  <section class="shop-section men">
+    <h2>Men's Shoes</h2>
+    <div class="shoe-grid">
+      <div class="shoe-item">
+        <img src="https://static.nike.com/a/images/t_default/1960503a-6da0-4fbf-8862-056be27a74f3/air-max-1-86-og-g-golf-shoes-7QZsWP.png" alt="Men's Shoe 1">
+        <h3>Nike Air Max 1</h3>
+        <p>Experience exceptional cushioning and comfort with the Nike Air Max 1. This iconic sneaker features a stylish design and is perfect for everyday wear.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="shoe-item">
+        <img src="https://ct.yimg.com/xd/api/res/1.2/YHxy1awInENbIfQhFD23Qw--/YXBwaWQ9eXR3YXVjdGlvbnNlcnZpY2U7aD00MDA7cT04NTtyb3RhdGU9YXV0bzt3PTMyMA--/https://s.yimg.com/ob/image/1661869f-bc60-40e9-af0c-44dc505f72d2.jpg" alt="Men's Shoe 2">
+        <h3>Adidas Ultraboost</h3>
+        <p>Elevate your running experience with the Adidas Ultraboost. These shoes offer responsive cushioning and a lightweight feel, ensuring optimal performance.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="shoe-item">
+        <img src="https://cdn.shopify.com/s/files/1/0719/5253/1742/products/458.jpg?v=1681908617&width=320" alt="Men's Shoe 3">
+        <h3>New Balance 990</h3>
+        <p>Step out in style and comfort with the New Balance 990. These classic sneakers feature premium materials and advanced cushioning for all-day support.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="shop-section women">
+    <h2>Women's Shoes</h2>
+    <div class="shoe-grid">
+      <div class="shoe-item">
+        <img src="https://static.nike.com/a/images/t_default/07e14619-28da-4b52-bb5c-00e21ff546cd/air-force-1-older-shoes-G1tf7h.png" alt="Women's Shoe 1">
+        <h3>Nike Air Force 1</h3>
+        <p>Add a touch of style to your outfit with the Nike Air Force 1. These sneakers combine classic design with modern comfort, making them a must-have.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="shoe-item">
+        <img src="https://cdn.shopify.com/s/files/1/0471/3332/7519/products/H02829_06_grey_60f91939-808d-48ae-9c96-5c0ed85b1c57_320x.jpg?v=1671570775" alt="Women's Shoe 2">
+        <h3>Reebok Classic Leather</h3>
+        <p>Stay on-trend with the Reebok Classic Leather. These shoes offer a timeless look and superior comfort, perfect for any casual occasion.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="shoe-item">
+        <img src="https://static.nike.com/a/images/t_default/toqshuuheqdl3ljzobnc/converse-chuck-taylor-all-star-high-top-unisex-shoes-xX439O.png" alt="Women's Shoe 3">
+        <h3>Converse Chuck Taylor All Star</h3>
+        <p>Rock a classic look with the Converse Chuck Taylor All Star. These iconic sneakers are versatile and timeless, suitable for any outfit.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
